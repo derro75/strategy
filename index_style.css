@@ -1,0 +1,113 @@
+
+.index_yote{
+background: rgb(10, 8, 94);
+margin: 0%;
+padding: 0%;
+overflow: hidden;
+background-image:  repeating-linear-gradient(
+    10deg, 
+    rgba(164, 37, 171, 0.2), 
+    rgba(244, 12, 159, 0.1) 1px, 
+    transparent 1px, 
+    transparent 2px)
+}
+.intro p{
+    color: rgb(164, 37, 171);
+}
+.index_juu{
+    display: absolute;
+   width: auto;
+   display: flex;
+   justify-content: right;
+   padding: 5px;
+   
+
+}
+.index_juu a{
+    border:1px solid rgb(100, 11, 11);
+    border-width: auto;
+    background-color: aliceblue;
+    color: rgb(164, 37, 171);
+    text-decoration: none;
+    border-radius: 12%;
+    padding: 0.5%;
+}
+.index_juu a:hover{
+    border: 2px solid rgb(100, 11, 11);
+    transform :  rotateZ(-5deg);
+    text-decoration: none;
+}
+.index_kati{
+    display: inline-flex;
+
+
+}
+
+.web_name{
+    display: flex;
+    flex-direction: column;
+    height: 76vh;
+    color: antiquewhite;  
+    width: 70%;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.web_name h3, h2{
+    margin: 0 0 0 2.5rem;
+    text-align: center;
+    display: block;
+    font-size: 500%;
+
+}
+.web_name h3{
+    text-decoration: underline;
+}
+.index_chini{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 120%;
+    color: rgb(23, 22, 21);
+
+}
+.white_back{
+    padding: 4%;
+    background-color: antiquewhite;
+    border-width: auto;
+}
+
+.songa a{
+    text-align: center;
+    text-decoration: none;
+}
+.songa a ::after{
+    content: "";
+    text-decoration: none;
+}
+.songa a:hover ::after {
+    text-decoration: none;
+    content: "...";
+}
+.index_sign{
+    display: flex;
+    justify-content: center;
+    
+}
+.index_sign a{
+    border:1px solid rgb(100, 11, 11);
+    border-width: auto;
+    background-color: aliceblue;
+    color: rgb(164, 37, 171);
+    text-decoration: none;
+    border-radius: 12%;
+    padding: 0.5%; 
+}
+.index_sign a:hover, :focus {
+    border: 2px solid rgb(100, 11, 11);
+    transform :  rotateZ(-5deg);
+    text-decoration: none;
+}
+
